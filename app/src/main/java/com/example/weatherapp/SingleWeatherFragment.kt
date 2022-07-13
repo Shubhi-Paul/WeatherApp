@@ -1,5 +1,6 @@
 package com.example.weatherapp
 
+import android.location.Location
 import android.os.AsyncTask
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -23,8 +24,11 @@ class SingleWeatherFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            CITY = it.getString(Location).toString()
-        }
+            if (it.getString(Location).isNullOrBlank()) {
+                CITY = "delhi"
+            }else
+                CITY = it.getString(Location).toString()
+            }
     }
 
     override fun onCreateView(
