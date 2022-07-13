@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location">GetLocation</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="bottomPanel">bottomPanel</string>
+    <string name="topPanel">topPanel</string>
+    <string name="rainy">rainy</string>
+    <string name="day">Day</string>
+    <string name="date">Date</string>
+    <string name="check">check</string>
+    <string name="city">city</string>
+    <string name="error">Something went wrong</string>
+    <string name="owner">Shubhi Paul</string>
+    <string name="created_by">Created By</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
+    <string name="sunset">Sunset</string>
+    <string name="sunrise">Sunrise</string>
+</resources>
